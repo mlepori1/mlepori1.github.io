@@ -372,7 +372,22 @@ ol, ul{
         color: #000000;
         border:none;
         border-radius:20px;
-        margin-top: 5%;
+        margin-top: 1%;
+        margin-bottom: 5%;
     }
+
+    .left-button {
+        position: relative;
+        left: 8%;
+        padding: 15px 50px;
+        font-size: 14pt;
+        background-color:#ffffff;
+        color: #000000;
+        border:none;
+        border-radius:20px;
+        margin-top: 1%;
+        margin-bottom: 5%;
+
+      }
 
 }
