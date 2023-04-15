@@ -320,17 +320,13 @@ ol, ul{
     #left-im-container {
         display: none;
     }
+
     #right-im-container {
         display: none;
     }
 
     .brain_banner {
         display: none;
-    }
-
-    .project{
-        position: relative;
-        height:400px;
     }
 
     .about-text {
@@ -350,6 +346,7 @@ ol, ul{
         margin-right: auto;  
         border-radius: 50%;
     }
+
 }
 
 
