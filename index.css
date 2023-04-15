@@ -347,6 +347,11 @@ ol, ul{
         border-radius: 50%;
     }
 
+    .project{
+        position: relative;
+        padding-bottom:8em;
+    }
+
 }
 
 
