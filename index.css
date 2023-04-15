@@ -235,7 +235,7 @@ ol, ul{
 
 .projects{
     position: relative;
-    padding-bottom: 25%;
+    margin-bottom: 5em;
 }
 
 .project{
@@ -323,6 +323,11 @@ ol, ul{
 
     .brain_banner {
         display: none;
+    }
+
+    .projects{
+        position: relative;
+        margin-bottom: 20em;
     }
 
     .about-text {
