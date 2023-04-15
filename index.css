@@ -325,9 +325,9 @@ ol, ul{
         display: none;
     }
 
-    .projects{
+    .project{
         position: relative;
-        margin-bottom: 20em;
+        height:400px;
     }
 
     .about-text {
