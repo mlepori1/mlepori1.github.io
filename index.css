@@ -254,7 +254,7 @@ ol, ul{
     margin-top: 0%;
     top: 0%;
     height: auto;
-    width: 350;
+    width: 350px;
     margin-right: 8%;
     margin-left: 8%;
     float:right;
@@ -287,15 +287,18 @@ ol, ul{
 }
 
 #left-im-container{
+    margin-top: 0%;
+    top: 0%;
+    height: auto;
     width: 350px;
-    position:relative;
-    float:left;
     margin-right: 8%;
     margin-left: 8%;
+    float:left;
     border-radius: 4%;
 }
 
 .right-button {
+    float: right;
     position: relative;
     padding: 15px 50px;
     font-size: 14pt;
@@ -303,9 +306,9 @@ ol, ul{
     color: #000000;
     border:none;
     border-radius:20px;
-    float: right;
     margin-top: 5%;
     margin-right: 8%;
+
   }
 
  .right-button:hover {
