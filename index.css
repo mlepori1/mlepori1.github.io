@@ -348,6 +348,7 @@ ol, ul{
     }
 
     .project{
+        height: 420px;
         margin-bottom: 1em;
     }    
 
