@@ -316,12 +316,6 @@ ol, ul{
     transition: 0.7s;
 }
 
-@media only screen and (max-width: 600px) {
-    .project{
-        position: relative;
-        padding-bottom: 0.5em;
-    }
-}
 @media only screen and (max-width: 1026px) {
     #left-im-container {
         display: none;
@@ -354,9 +348,8 @@ ol, ul{
     }
 
     .project{
-        position: relative;
-    }
-
+        margin-bottom: 1em;
+    }    
 
     .proj-right-text{
         position: relative;
