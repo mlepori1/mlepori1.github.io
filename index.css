@@ -3,7 +3,7 @@ header{
     overflow:hidden;
 }
 .footer {
-    position:absolute;
+    position:fixed;
     float:bottom;
     bottom:0%;
     width:100%;
