@@ -349,8 +349,31 @@ ol, ul{
 
     .project{
         position: relative;
-        padding-bottom:8em;
+        height: auto;
     }
+
+
+    .proj-right-text{
+        position: relative;
+        text-align: left;
+        margin-top: 5%;
+        margin-left:8%;
+        margin-right:8%;
+    }
+
+    .right-button {
+        float:none;
+        position: relative;
+        left: 8%;
+        padding: 15px 50px;
+        font-size: 14pt;
+        background-color:#ffffff;
+        color: #000000;
+        border:none;
+        border-radius:20px;
+        margin-top: 5%;
+    }
+    
 
 }
 
