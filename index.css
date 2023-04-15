@@ -1,0 +1,341 @@
+
+header{
+    overflow:hidden;
+}
+.footer {
+    position:absolute;
+    float:bottom;
+    bottom:0%;
+    width:100%;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+  }
+
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+}
+     
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #000000;
+    font-family: 'HelveticaNeue-Light';
+    font-size: 14pt;
+}
+         
+h1, h2, h3{
+    margin: 0;
+    padding: 0;
+    color: #ebebeb;
+}
+  
+h1{
+    font-size:40pt;
+}
+
+a {
+    color: white;
+  }
+
+p, ol, ul{
+    margin-top: 0;
+    color: #ffffff;
+}
+ 
+p {
+    line-height: 180%;
+    font-size:14pt;
+}
+ 
+ol, ul{
+    padding: 0;
+}
+ 
+#top-header{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-size: 14pt;
+    padding: 20px 0px;
+    height: 60px;
+}
+
+.container{   
+    /* Set width of container to
+        1200px and align center */
+    margin: 0px auto;
+    width: 1200px;
+}
+
+.about{
+    width: 100%;
+    position: relative;
+    padding-bottom: 10%;
+    margin-top:5%;
+}
+
+.about-text {
+    width: 40%;
+    position: relative;
+    float: left;
+    top: 20%;
+    left:8%;
+    padding-bottom: 10%;
+}
+
+.about-text p {
+    margin-top: 2.0em ;
+  }
+
+.about-text ol {
+    position: relative;
+    left:8%
+}
+
+.about li {
+    margin-top: 0.5em;
+}
+
+.portrait{
+    width: 350px;
+    position:relative;
+    float:right;
+    margin-top: 5%;
+    margin-right: 8%;
+    margin-left: 3%;
+    border-radius: 10%;
+}
+
+/***************************/
+/* Styling Navigation Menu */
+/***************************/
+#menu{
+    width: 100%;
+    height: 100%;
+    margin-left:8%;
+}
+ 
+.menu a{
+    float: left;
+    padding: 0.0em 0.5em;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 60px;
+    color: #FFF;
+}
+
+#menu a:hover{
+    color: #737373;
+    text-decoration: none;
+
+}
+
+#menu h2{
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Button Styling */
+#menu button {
+    float: right;
+    position: relative;
+    top: 20%;
+    right: 16%;
+    padding: 10px 15px;
+    font-size: 12pt;
+    background-color:#ffffff;
+    color: #000000;
+    border:none;
+    border-radius:20px;
+  }
+
+/* Mobile */
+/* Hide the link that should open and close the topnav on small screens */
+.menu .icon {
+    display: none;
+  }
+
+/* When the screen is less than 1026 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 1026px) {
+    .menu a{display: none;}
+    .menu button{display: none;}
+
+    .menu a.icon {
+        display: block;
+        float: none;
+        position: absolute;
+        top: 50%;
+        left: 85%;
+        font-size: 28px;
+        transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 1026px) {
+
+    .menu.responsive a {
+        display: block;
+        position: relative;
+        float: left;
+        width:50%;
+        margin-left: 16%;
+        margin-right: 28%;
+
+        top: 20%;
+        text-decoration: none;
+        font-weight: 600;
+        line-height: 60px;
+        color: #FFF;
+    }
+
+    .menu.responsive h2 {
+        display: none;
+    }
+
+    .menu.responsive a.icon {
+        display: block;
+        float: none;
+        position: absolute;
+        width:10%;
+        top: 50%;
+        left:69%;
+        font-size: 28px;
+        transform: translate(-50%, -50%);
+  }
+  }
+  
+.brain_banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("assets/cajal-clipped.jpeg");
+  /* Set a specific height */
+  height: 35%;
+  width: auto;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+
+}
+
+/* Projects section on science page*/
+#science-header h1{
+    margin-top: 1.0em ;
+    margin-bottom: 1.0em ;
+
+    position: relative;
+    left:8%;
+}
+
+.project{
+    position: relative;
+    height:350px;
+}
+
+.proj-left-text{
+    position: relative;
+    margin-top: 5%;
+    margin-left:8%;
+    margin-right:8%;
+}
+
+#right-im-container{
+    margin-top: 0%;
+    top: 0%;
+    height: auto;
+    width: 350;
+    margin-right: 8%;
+    margin-left: 8%;
+    float:right;
+    border-radius: 4%;
+}
+
+.left-button {
+    position: relative;
+    left: 8%;
+    padding: 15px 50px;
+    font-size: 14pt;
+    background-color:#ffffff;
+    color: #000000;
+    border:none;
+    border-radius:20px;
+    margin-top: 5%;
+  }
+
+ .left-button:hover {
+    background-color:#717171;
+    transition: 0.7s;
+}
+
+.proj-right-text{
+    position: relative;
+    text-align: right;
+    margin-top: 5%;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+#left-im-container{
+    width: 350px;
+    position:relative;
+    float:left;
+    margin-right: 8%;
+    margin-left: 8%;
+    border-radius: 4%;
+}
+
+.right-button {
+    position: relative;
+    padding: 15px 50px;
+    font-size: 14pt;
+    background-color:#ffffff;
+    color: #000000;
+    border:none;
+    border-radius:20px;
+    float: right;
+    margin-top: 5%;
+    margin-right: 8%;
+  }
+
+ .right-button:hover {
+    background-color:#717171;
+    transition: 0.7s;
+}
+
+@media only screen and (max-width: 1026px) {
+    #left-im-container {
+        display: none;
+    }
+    #right-im-container {
+        display: none;
+    }
+
+    .brain_banner {
+        display: none;
+    }
+
+    .about-text {
+        width: 80%;
+        position: relative;
+        top: 10%;
+        left:8%;
+        padding-bottom: 10%;
+    }
+
+    .portrait{
+        margin-top: 8%;
+        width: 350px;
+        float:none;
+        display: block;  
+        margin-left: auto;  
+        margin-right: auto;  
+        border-radius: 50%;
+    }
+}
+
+

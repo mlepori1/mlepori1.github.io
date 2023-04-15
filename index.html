@@ -1,0 +1,66 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <!-- This will show up on the tab in your browser -->
+    <title>Michael Lepori</title>
+
+    <!-- This links your css file to the html -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+
+<!-- Header Menu of the Page -->
+<header>
+         
+    <!-- Top header menu containing
+         logo and Navigation bar -->
+    <div class="top-header" id="top-header"> 
+                 
+        <!-- Navigation Menu -->
+        <nav>
+          <div class="menu" id="menu">
+            <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="index.html">Home</a></li>
+            <a href="science.html">Science</a></li>
+            <a href="misc.html">Misc.</a></li>
+            <a href="https://drive.google.com/file/d/1voZPAjj88OFQ1jBmzboL222NrCAxs5Wo/view?usp=share_link">CV</a></li>
+            <h2>Michael Lepori</h2>
+            <button type="button" onclick="window.location.href='https://scholar.google.com/citations?user=G1fepc8AAAAJ&hl=en&oi=ao'";>Google Scholar</button>
+        </div>
+        </nav>
+    </div>   
+ 
+</header>
+
+<body>
+    <!-- This is the start of the "About" section -->
+    <img src="assets/light_background.HEIC.jpeg" alt="", class="portrait">
+
+    <div class="about">
+        <div class="about-text">
+            <h1>About Me</h1>
+            <p>I’m currently a first year Ph.D. student at Brown University, advised by <a href="https://lunar.cs.brown.edu/">Ellie Pavlick</a> and <a href="https://serre-lab.clps.brown.edu/">Thomas Serre</a>. 
+                I enjoy thinking about problems at the intersection of machine learning and cognitive science, but I like to do other things too. </p>
+            <p>Before starting at Brown, I worked as a machine learning engineer at several startups. I graduated from Johns Hopkins University in 2020 with a B.S. in Physics and Computer Science. Feel free to reach out if you want to chat!</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>michael_lepori@brown.edu</p>
+    </div>
+</body>
+
+<!--Add extremely simple JS function to make menu responsive-->
+<script>
+    function responsiveMenu() {
+      var x = document.getElementById("menu");
+      if (x.className === "menu") {
+        x.className += " responsive";
+      } else {
+        x.className = "menu";
+      }
+    }
+</script>
