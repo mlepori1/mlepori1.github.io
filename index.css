@@ -1,4 +1,5 @@
 
+
 header{
     overflow:hidden;
 }
@@ -348,9 +349,10 @@ ol, ul{
     }
 
     .project{
-        height: 420px;
-        margin-bottom: 1em;
-    }    
+        position: relative;
+        height: auto;
+    }
+
 
     .proj-right-text{
         position: relative;
@@ -373,20 +375,4 @@ ol, ul{
         margin-top: 5%;
     }
 
-    .left-button {
-        float:none;
-        position: relative;
-        left: 8%;
-        padding: 15px 50px;
-        font-size: 14pt;
-        background-color:#ffffff;
-        color: #000000;
-        border:none;
-        border-radius:20px;
-        margin-top: 5%;
-    }
-    
-
 }
-
-
