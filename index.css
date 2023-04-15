@@ -233,6 +233,11 @@ ol, ul{
     left:8%;
 }
 
+.projects{
+    position: relative;
+    padding-bottom: 25%;
+}
+
 .project{
     position: relative;
     height:350px;
