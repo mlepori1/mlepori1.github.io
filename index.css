@@ -255,11 +255,22 @@ ol, ul{
     margin-top: 0%;
     top: 0%;
     height: auto;
-    width: 350px;
+    width: 300px;
     margin-right: 8%;
     margin-left: 8%;
     float:right;
     border-radius: 4%;
+}
+
+#right-im-container-wide{
+    margin-top: 0%;
+    top: 0%;
+    height: auto;
+    width: 550px;
+    margin-right: 8%;
+    margin-left: 8%;
+    float:right;
+    border-radius: 15px;
 }
 
 .left-button {
@@ -291,11 +302,22 @@ ol, ul{
     margin-top: 0%;
     top: 0%;
     height: auto;
-    width: 350px;
+    width: 300px;
     margin-right: 8%;
     margin-left: 8%;
     float:left;
     border-radius: 4%;
+}
+
+#left-im-container-wide{
+    margin-top: 0%;
+    top: 0%;
+    height: auto;
+    width: 550px;
+    margin-right: 8%;
+    margin-left: 8%;
+    float:left;
+    border-radius: 15px;
 }
 
 .right-button {
