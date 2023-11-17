@@ -348,6 +348,14 @@ ol, ul{
         display: none;
     }
 
+    #left-im-container-wide {
+        display: none;
+    }
+
+    #right-im-container-wide {
+        display: none;
+    }
+
     .brain_banner {
         display: none;
     }
