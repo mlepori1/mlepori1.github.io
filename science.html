@@ -43,95 +43,73 @@
     <!-- This is the start of the "Science" section -->
     
     <div id="science-header">
-        <h1>Science</h1>
+        <h1>Research Directions</h1>
+        <div class="research-directions">
+           <div class="proj-left-text">
+                <p>My work focuses on understanding the representations and algorithms underlying human and machine cognition. For the first time, we have access to
+                    models that can flexibly accomplish complex cognitive tasks across a wide range of domains. My research uses insights from cognitive science in order
+                    to uncover the mechanisms supporting this seemingly-intelligent behavior, and, reciprocally, uses techniques from mechanistic interpretability to better characterize 
+                    the similarities and differences between minds and machines. Ultimately, this research program aims to transform black-box neural networks into explicit and useful cognitive
+                    models of linguistic and visual processing, while also driving the development of more human-like artificial intelligence systems. 
+                </p>
+
+                <p>Here are some specific questions that I like to think about:</p>
+                <ul class="spaced-list">
+                <li>How do modern neural networks seem to produce compositional/symbolic behavior? </li>
+                <li>To what extent to language models learn to represent a coherent model of the world? </li>
+                <li>How can we best employ pretrained models as (components of) cognitive models? </li>
+                <li>How much of human cognition is truly symbolic, and how much is statistical? </li>
+                <li>What is the role of inductive biases in modern AI? Is scale all you need? </li> 
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="projects-header">
+        <h1>Selected Publications</h1>
     </div>
 
     <div class="projects">
 
         <div class="project">
-            <img src="assets/circuit_probing_diagram.png" alt="Circuit Probing Diagram", id="right-im-container-wide">
+            <img src="assets/just_fantasy.png" alt="Just Fantasy Diagram", id="right-im-container">
             <div class="proj-left-text">
-                <h2>Uncovering Intermediate Variables in Transformers using Circuit Probing</h2>
-                <p>Can we find subnetworks that compute high-level intermediate variables in transformers?</p>
+                <h2>Is This Just Fantasy? Language Model Representations Reflect Human Judgments of Event Plausibility</h2>
+                <p>Can language models distinguish the possible from the impossible?</p>
             </div>
-            <button class="left-button" type="button" onclick="window.location.href='https://arxiv.org/abs/2311.04354'">Read</button>
+            <button class="left-button" type="button" onclick="window.location.href='https://arxiv.org/abs/2507.12553'">Read</button>
         </div>
 
         <div class="project">
-            <img src="assets/neurosurgeon_diagram.png" alt="NeuroSurgeon Diagram", id="left-im-container">
+            <img src="assets/racing_thoughts.png" alt="Racing Thoughts Diagram", id="left-im-container-wide">
             <div class="proj-right-text">
-                <h2>NeuroSurgeon: A Toolkit for Subnetwork Analysis</h2>
-                <p>We present a python package that simplifies subnetwork analysis.</p>
+                <h2>Racing Thoughts: Explaining Contextualization Errors in Large Language Models</h2>
+                <p>Language models are usually great at incorporating context &mdash; but not always. What causes contextualization errors?</p>
             </div>
-            <button class="right-button" type="button" onclick="window.location.href='https://arxiv.org/abs/2309.00244'">Read</button>
+            <button class="right-button" type="button" onclick="window.location.href='https://aclanthology.org/2025.naacl-long.155/'">Read</button>
         </div>
 
+
         <div class="project">
-            <img src="assets/break_it_down_img.png" alt="Break It Down Diagram", id="right-im-container">
+            <img src="assets/beyond_the_doors.png" alt="Beyond the Doors Diagram", id="right-im-container-wide">
             <div class="proj-left-text">
+                <h2>Beyond the Doors of Perception: Vision Transformers Represent Relations Between Objects</h2>
+                <p>How do vision transformers solve a simple symbolic visual reasoning task?</p>
+            </div>
+            <button class="left-button" type="button" onclick="window.location.href='https://proceedings.neurips.cc/paper_files/paper/2024/hash/ed99503856b2ba85092e5413add65d86-Abstract-Conference.html'">Read</button>
+        </div>
+
+
+        <div class="project">
+            <img src="assets/break_it_down_img.png" alt="Break It Down Diagram", id="left-im-container">
+            <div class="proj-right-text">
                 <h2>Break It Down: Evidence for Structural Compositionality in Neural Networks</h2>
                 <p>Do neural networks self-organize into modular components when solving compositional tasks?</p>
             </div>
-            <button class="left-button" type="button" onclick="window.location.href='https://arxiv.org/abs/2301.10884'">Read</button>
+            <button class="right-button" type="button" onclick="window.location.href='https://arxiv.org/abs/2301.10884'">Read</button>
         </div>
-
-        <div class="project">
-            <img src="assets/same_diff_diagram.png" alt="Same Different Diagram", id="left-im-container">
-            <div class="proj-right-text">
-                <h2>Deep Neural Networks Can Learn Generalizable Same-Different Visual Relations</h2>
-                <p>Can vision models learn same-different relations that generalize to different datasets?</p>
-            </div>
-            <button class="right-button" type="button" onclick="window.location.href='https://arxiv.org/abs/2310.09612'">Read</button>
-        </div>
-
-        <div class="project">
-            <img src="assets/subtask_induction_diagram.png" alt="Subtask Induction Diagram", id="right-im-container-wide">
-            <div class="proj-left-text">
-                <h2>Instilling Inductive Biases with Subnetworks</h2>
-                <p>Can we influence the solutions that neural networks learn by transferring subnetworks from trained models to randomly intialized models?</p>
-            </div>
-            <button class="left-button" type="button" onclick="window.location.href='https://arxiv.org/abs/2310.10899'">Read</button>
-        </div>
-
-        <div class="project">
-            <img src="assets/representations_of_syntax.jpg" alt="Representations of Syntax Diagram", id="left-im-container">
-            <div class="proj-right-text">
-                <h2>Representations of Syntax [MASK] Useful: Effects of Constituency and Dependency Structure in Recursive LSTMs</h2>
-                <p>Which tree-structured neural network imparts the best inductive bias for syntactic agreement?</p>
-            </div>
-            <button class="right-button" type="button" onclick="window.location.href='https://arxiv.org/abs/2005.00019'">Read</button>
-        </div>
-
-        <div class="project">
-            <img src="assets/can_you_hear.jpg" alt="Can You Hear Me Now Diagram", id="right-im-container-wide">
-            <div class="proj-left-text">
-                <h2>Can You Hear Me <em>Now?</em>: Sensitive Comparisons of Human and Machine Perception</h2>
-                <p>How might researchers make fair comparisons between human and machine perception systems?</p>
-            </div>
-            <button class="left-button" type="button" onclick="window.location.href='https://philarchive.org/archive/LEPCYH'">Read</button>
-        </div>
-    </div>
-
-    <div class="project">
-        <img src="assets/unequal_representations_diagram.png" alt="Unequal Representations Diagram", id="left-im-container-wide">
-        <div class="proj-right-text">
-            <h2>Unequal Representations: Analyzing Intersectional Biases in Word
-                Embeddings Using Representational Similarity Analysis</h2>
-            <p>We know BERT encodes racial and gender biases. Does it also encode intersectional biases?</p>
-        </div>
-        <button class="right-button" type="button" onclick="window.location.href='https://arxiv.org/abs/2011.12086'">Read</button>
-    </div>
-
-    <div class="project">
-        <img src="assets/rsa_diagram.png" alt="Can You Hear Me Now Diagram", id="right-im-container">
-        <div class="proj-left-text">
-            <h2>Picking BERT’s Brain: Probing for Linguistic Dependencies in
-                Contextualized Embeddings Using Representational Similarity Analysis</h2>
-            <p>Can we use representational similarity analysis to uncover linguistic structure in word embeddings?</p>
-        </div>
-        <button class="left-button" type="button" onclick="window.location.href='https://arxiv.org/abs/2011.12073'">Read</button>
-    </div>
-    </div>
 
     <div class="footer">
         <p>michael_lepori@brown.edu</p>
