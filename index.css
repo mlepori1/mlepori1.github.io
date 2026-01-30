@@ -17,7 +17,6 @@ header{
 html, body{
     height: 100%;
     overflow-x: hidden;
-    padding-bottom:5%;
 }
      
 body{
@@ -26,6 +25,7 @@ body{
     background: #000000;
     font-family: 'HelveticaNeue-Light', Arial, Helvetica, sans-serif;
     font-size: 14pt;
+    padding-bottom: 60px;
 }
          
 h1, h2, h3{
@@ -242,12 +242,15 @@ ol, ul{
     left:8%;
 }
 
-.spaced-list li {
-    margin-bottom: 0.6em;
-    list-style-position: inside;
-    padding-left: 1rem;
+.spaced-list{
+  list-style-position: inside;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
 }
 
+.spaced-list li{
+  margin-bottom: 0.6em;
+}
 .research-directions{
     position: relative;
 }
